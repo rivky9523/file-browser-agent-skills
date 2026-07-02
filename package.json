@@ -1,0 +1,38 @@
+{
+  "name": "file-browser-agent",
+  "version": "0.1.0",
+  "description": "Windows file browser with an embedded Claude agent chat panel",
+  "main": "./out/main/index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/run-evite.mjs dev",
+    "build": "electron-vite build",
+    "start": "node scripts/run-evite.mjs preview",
+    "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
+    "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false",
+    "typecheck": "npm run typecheck:node && npm run typecheck:web"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.0",
+    "@anthropic-ai/sdk": "^0.106.0",
+    "ai": "^7.0.2",
+    "dotenv": "^17.4.2",
+    "fflate": "^0.8.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^42.5.0",
+    "electron-vite": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
