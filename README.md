@@ -161,3 +161,10 @@ src/
 ├─ preload/     ← contextBridge: exposes a small window.api to the renderer
 └─ renderer/    ← React app (chat, browser, tree)
 ```
+
+
+
+## Author
+
+**Rivky Peretz**
+[GitHub](https://github.com/rivky9523) · [Email](mailto:r0548551732@gmail.com)
