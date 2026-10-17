@@ -15,7 +15,7 @@ extend what the agent can do.
 ## Requirements
 
 - Node.js 18+
-- Windows (the app is built around Windows drives, `safeStorage`, and Explorer)
+- Windows (the app is built around Windows drives,  `safeStorage`, and Explorer)
 - An Anthropic API key (enter it in the app, or via `.env` — see below)
 
 ---
